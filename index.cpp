@@ -97,6 +97,7 @@ int main(int argc, char** argv)
     srand(static_cast<unsigned int>(time(0)));
     
     vector<float> vecX, vecY;
+    long long per = 0;
     
     unsigned int DotsAmount = 0;
     while (DotsAmount < 3) {
